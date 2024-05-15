@@ -16,7 +16,8 @@ const About = () => {
         <div>
           <p className="text-white mt-6">
             2-year experienced web developer creating dynamic and responsive web
-            applications. Proficient in HTML, CSS, JavaScript, React.js, and
+            applications. Proficient in HTML, CSS,
+             JavaScript, React.js, and
             React Native for mobile app development. Skilled in using JavaScript
             to ensure high-quality, maintainable code. Strong knowledge of REST
             APIs and adept at debugging code. Committed to creating
