@@ -8,14 +8,14 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
-import pic from '../assests/amarportfoliopic.jpg'
+import pic from '../assests/amarpic.png'
 
 const Sidebar = () => {
   return (
     <div className="ml-16 mt-8 h-dvh ">
-      <div className="">
+      <div className="drop-shadow-xl">
         <img
-          className="mx-auto -mb-16 rounded-lg"
+          className="mx-auto -mb-16 rounded-full shadow-red-500"
           height="150px"
           width="150px"
           src={pic}

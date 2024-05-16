@@ -33,7 +33,7 @@ const About = () => {
         <div>
           <h2 className="text-white mt-10 text-2xl font-bold">What I do!</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-            <div className="flex flex-col border-2 rounded p-6 border-gray-500">
+            <div className="flex  border-2 rounded p-6 border-gray-500">
               <div className="text-violet-500 text-4xl mt-1">
                 <SiMaterialdesignicons />
               </div>
@@ -45,7 +45,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col border-2 rounded p-4 border-gray-500">
+            <div className="flex  border-2 rounded p-4 border-gray-500">
               <div className="text-yellow-500 text-5xl mt-1">
                 <MdOutlineDeveloperBoard />
               </div>
@@ -57,7 +57,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col border-2 rounded p-6 border-gray-500">
+            <div className="flex  border-2 rounded p-6 border-gray-500">
               <div className="text-red-500 text-4xl mt-1">
                 <FaCameraRetro />
               </div>
@@ -69,7 +69,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col border-2 rounded p-4 border-gray-500">
+            <div className="flex  border-2 rounded p-4 border-gray-500">
               <div className="text-blue-500 text-5xl mt-1">
                 <VscVscode />
               </div>
