@@ -8,7 +8,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
-import pic from '../assests/amarpic.png'
+import profilepic from '../assests/amarpic.png'
+import resume from "../assests/AmarPratap_UI.pdf"
 
 const Sidebar = () => {
   return (
@@ -18,8 +19,8 @@ const Sidebar = () => {
           className="mx-auto -mb-16 rounded-full shadow-red-500"
           height="150px"
           width="150px"
-          src={pic}
-          alt=" image load"
+          src={profilepic}
+          alt="load..."
         />
       </div>
       <div className="bg-black py-6 rounded-lg">
@@ -31,17 +32,26 @@ const Sidebar = () => {
         </div>
 
         <div className="flex justify-around mt-4 mx-8">
-          <div className="p-2 rounded-md bg-zinc-700 text-cyan-400">
+          <div className="p-2 rounded-md bg-zinc-700 text-cyan-400 hover:pointer">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
             <FacebookIcon />
+            </a>    
           </div>
-          <div className="p-2 rounded-md bg-zinc-700 text-cyan-400">
+          <div className="p-2 rounded-md bg-zinc-700 text-cyan-400 hover:pointer">
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
             <TwitterIcon />
+          </a>
           </div>
-          <div className="p-2 rounded-md bg-zinc-700 text-red-600">
+          <div className="p-2 rounded-md bg-zinc-700 text-red-600 hover:pointer">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
             <InstagramIcon />
+          </a>
+            
           </div>
-          <div className="p-2 rounded-md bg-zinc-700 text-blue-700">
+          <div className="p-2 rounded-md bg-zinc-700 text-blue-700 hover:pointer">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
+          </a>
           </div>
         </div>
 
@@ -93,7 +103,10 @@ const Sidebar = () => {
           </div>
         </div>
         <div className="text-center">
-          <button className="text-white py-2 px-8 border-transparent bg-rose-500 rounded-full "> <DownloadOutlinedIcon/> Download CV</button>
+          <a href={resume} download="AmarPratap_UI.pdf">
+            <button  className="text-white py-2 px-8 border-transparent bg-rose-500 rounded-full "> <DownloadOutlinedIcon/> Download CV</button>
+          </a>
+         
         </div>
       </div>
 
